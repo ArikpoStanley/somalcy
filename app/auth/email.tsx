@@ -15,7 +15,7 @@ const Email = () => {
         </View>
       </View>
       
-      <TouchableOpacity className="bg-primary py-4 rounded-full items-center mb-8" onPress={() => router.navigate("/auth/nin")}>
+      <TouchableOpacity className="bg-primary py-4 rounded-full items-center mb-8" onPress={() => router.navigate("/auth/otp")}>
         <Text className="text-white text-lg font-medium">Next</Text>
       </TouchableOpacity>
     </View>

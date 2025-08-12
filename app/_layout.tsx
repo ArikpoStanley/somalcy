@@ -13,6 +13,9 @@ export default function RootLayout() {
       <Stack.Screen name="auth/Scan" options={{headerShown: false}} />
       <Stack.Screen name="auth/Confirm" options={{headerShown: false}} />
       <Stack.Screen name="auth/email" options={{headerShown: false}} />
+      <Stack.Screen name="auth/otp" options={{headerShown: false}} />
+      <Stack.Screen name="auth/password" options={{headerShown: false}} />
+      <Stack.Screen name="auth/complete" options={{headerShown: false}} />
     </Stack>
   );
 }
